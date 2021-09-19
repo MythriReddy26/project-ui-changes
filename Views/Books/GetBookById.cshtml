@@ -1,0 +1,95 @@
+﻿@model Book
+
+@{
+    ViewData["Title"] = "GetBookById";
+}
+
+<div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-8"><h4>@Html.DisplayFor(model => model.Title)</h4></div>
+            <div class="col-md-4" align="right"><a class="btn btn-primary p-2 mb-2" asp-action="GetListofBooks">Back to List</a></div>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-5">
+                <img src=@Html.DisplayFor(model => model.ThumbnailUrl) width="100%" />
+            </div>
+            <div class="col-lg-7">
+                <table class="table table-striped">
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.BookId)
+                        </th>
+                        <td>
+                            @Html.DisplayFor(model => model.BookId)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Isbn)
+                        </th>
+                        <td>
+                            @Html.DisplayFor(model => model.Isbn)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Title)
+                        </th>
+                        <td>
+                            @Html.DisplayFor(model => model.Title)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.PageCount)
+                        </th>
+                        <td>
+                            @Html.DisplayFor(model => model.PageCount)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.PublishedDate)
+                        </th>
+                        <td>
+                            @Html.DisplayFor(model => model.PublishedDate)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ShortDescription)
+                        </th>
+                        <td>
+                            @Html.DisplayFor(model => model.ShortDescription)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Authors)
+                        </th>
+                        <td>
+                            @Html.DisplayFor(model => model.Authors)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Categories)
+                        </th>
+                        <td>
+                            @Html.DisplayFor(model => model.Categories)
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-12 long-des">
+                <h5>@Html.DisplayNameFor(model => model.LongDescription)</h5>
+                <p>@Html.DisplayFor(model => model.LongDescription)</p>
+            </div>
+
+        </div>
+    </div>
+</div>

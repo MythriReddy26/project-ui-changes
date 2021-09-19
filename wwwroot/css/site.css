@@ -1,0 +1,171 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 0rem 1rem rgb(0 0 0 / 15%);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+
+
+
+
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+}
+.navbar-nav li {
+    font-size: 1.2rem !important;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+    .navbar-nav li .nav-link:hover, .navbar-nav li .nav-link:active {
+        color: #1e88e5 !important;
+    }
+.navbar-brand {
+    margin-right: 4rem !important;
+}
+.mt-100 {
+    margin-top: 100px;
+}
+.card-body {
+    text-align:center;
+}
+.card {
+    height: 420px;
+    border-radius:12px !important;
+}
+    .card:hover {
+        border: 1px #ccc solid;
+        box-shadow: rgba(100, 100, 111, 0.2) 5px 10px 15px 10px;
+    }
+.long-des {
+    margin: 20px 0px;
+    background: #edf7ff;
+    padding: 25px;
+}
+.h-400 { height:400px;}
+.mt-200 {margin-top:200px;}
+.valignc {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #edf7ff !important;
+}
+
+.w-80p {width:80%;}
+
+.row-bg-slider {
+    background: #f3f3f3;
+    padding: 20px 40px;
+}
+.slider-text {
+    background: #fff;
+    width: 100%;
+    padding: 40px 40px;
+}
+.slider-imgs {
+    background: #5ba5e6;
+    padding: 20px 20px;
+}
+
+.slider-search {
+    background: #5ba5e6;
+    padding: 13px 13px;
+}
+
+.card-bg-color {
+    background-color: #edf7ff;
+}
+
+.admin-bg-img {
+    background: url("../img/slide-5.jpg");
+    /* Full height */
+    height: 100% !important;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.admin-text {
+    background: #f7f3f3;
+    width: 100%;
+    padding: 40px 40px;
+    border: 10px solid #9e6d59;
+}
